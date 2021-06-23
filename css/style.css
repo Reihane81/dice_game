@@ -1,0 +1,128 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    // background-color: #cc5577;
+    // background-color: #cca1a1;
+    // background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23cca1a1' width='11' height='11'/%3E%3Crect fill='%23cda2a1' x='10' width='11' height='11'/%3E%3Crect fill='%23cfa3a1' y='10' width='11' height='11'/%3E%3Crect fill='%23d0a4a2' x='20' width='11' height='11'/%3E%3Crect fill='%23d1a5a2' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23d3a6a2' y='20' width='11' height='11'/%3E%3Crect fill='%23d4a7a2' x='30' width='11' height='11'/%3E%3Crect fill='%23d5a8a2' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23d6a9a2' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23d7aba3' y='30' width='11' height='11'/%3E%3Crect fill='%23d8aca3' x='40' width='11' height='11'/%3E%3Crect fill='%23daada3' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23dbaea3' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23dcafa3' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23ddb0a3' y='40' width='11' height='11'/%3E%3Crect fill='%23deb1a4' x='50' width='11' height='11'/%3E%3Crect fill='%23dfb3a4' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23e0b4a4' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23e1b5a4' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23e2b6a4' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23e2b7a4' y='50' width='11' height='11'/%3E%3Crect fill='%23e3b9a5' x='60' width='11' height='11'/%3E%3Crect fill='%23e4baa5' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23e5bba5' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23e6bca5' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23e6bea6' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23e7bfa6' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23e8c0a6' x='70' width='11' height='11'/%3E%3Crect fill='%23e8c2a6' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%23e9c3a7' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23eac4a7' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23eac6a7' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23ebc7a8' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%23ebc8a8' x='80' width='11' height='11'/%3E%3Crect fill='%23eccaa8' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23eccba9' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23edcca9' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23edceaa' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23edcfaa' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23eed1ab' x='90' width='11' height='11'/%3E%3Crect fill='%23eed2ab' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23eed3ac' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23eed5ac' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23efd6ad' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23efd8ae' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23efd9ae' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23efdbaf' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23efdcb0' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23efdeb0' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23efdfb1' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23efe1b2' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23efe2b3' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23efe4b4' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23efe5b5' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23efe6b6' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23efe8b7' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23efe9b8' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23eeebb9' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23eeecba' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23EEB' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("../img/bg/dice1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    max-width: 50rem;
+    min-width: 24rem;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: nowrap;
+    top: 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(15, 45, 61, .8);
+    color: white;
+}
+
+.d-none{
+    display: none;
+}
+.box-player1,
+.box-player2 {
+    width: 50%;
+    height: 25rem;
+    line-height: 2rem;
+    padding: 2rem 0;
+    text-align: center;
+    justify-content: center;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+}
+
+.active {
+    background-color: rgba(75, 121, 148, .8);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.box-name {
+    position: relative;
+    top: 10%;
+    margin-bottom: 4rem;
+    font-size: 30px;
+    color: white;
+}
+
+.box-number {
+    font-size: 60px;
+    color: #c1121f;
+    margin-bottom: 7rem;
+}
+
+.box-current {
+    position: relative;
+    max-width: 7rem;
+    margin: auto;
+    color: white;
+    background-color: #c1121f;
+    border: 1px solid #c1121f;
+    border-radius: 5px;
+}
+
+.btn-new-game,
+.btn-roll-dice,
+.btn-hold {
+    position: absolute;
+    width: 8.5rem;
+    border: none;
+    border-radius: 20px;
+    padding: .5rem 0rem;
+    margin: auto;
+    top: 7%;
+    background-color: #e6e8e6;
+    cursor: pointer;
+    transition: all .5s ease;
+    // color: white;
+}
+
+.fas,
+.fal {
+    font-size: 20px;
+    padding-right: .5rem;
+}
+
+.btn-roll-dice {
+    top: 67%;
+}
+
+.btn-hold {
+    width: 7rem;
+    top: 78%;
+}
+
+.btn-new-game:hover,
+.btn-roll-dice:hover,
+.btn-hold:hover {
+    background-color: silver;
+}
+
+.img-dice {
+    position: absolute;
+    width: 10rem;
+    border: none;
+    margin: auto;
+    top: 35%;
+    text-align: center;
+}
+
+.dice {
+    width: 5rem;
+    Transform-Style: Preserve-3d
+}
